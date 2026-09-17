@@ -99,7 +99,7 @@ export default function CheckoutPage() {
                   label: "Phone *",
                   placeholder: "+91 99999 99999",
                 },
-                { field: "city", label: "Shehar", placeholder: "Jaipur" },
+                { field: "city", label: "Shehar", placeholder: "Churu" },
               ].map((f) => (
                 <div key={f.field}>
                   <label className="text-sm font-medium text-warm-700 mb-1 block">

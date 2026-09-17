@@ -88,7 +88,7 @@ export default function ContactPage() {
             icon: <FiMapPin />,
             title: "Address",
             value: "Cake Hamper Sisters",
-            sub: "Jaipur, Rajasthan",
+            sub: "Bidasar, Churu, Rajasthan",
           },
         ].map((item, i) => (
           <motion.div

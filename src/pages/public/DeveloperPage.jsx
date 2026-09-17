@@ -271,7 +271,7 @@ export default function DeveloperPage() {
             transition={{ delay: 0.7 }}
             className="text-white/40 text-sm flex items-center justify-center gap-1.5 mb-8"
           >
-            <FiMapPin className="text-primary-400" /> Rajasthan, India
+            <FiMapPin className="text-primary-400" /> Bidasar, Churu, Rajasthan
           </motion.p>
 
           {/* Contact Buttons */}
@@ -327,7 +327,7 @@ export default function DeveloperPage() {
               <p className="text-white text-lg font-semibold">Garima Bothra</p>
               <p className="text-white/50 text-sm flex items-center gap-1 mt-1">
                 <FiMapPin className="text-primary-400 flex-shrink-0" /> Cake
-                Hamper Sisters, Jaipur, Rajasthan
+                Hamper Sisters, Bidasar, Churu, Rajasthan
               </p>
             </div>
             <div className="bg-white/5 rounded-2xl p-5">
@@ -480,7 +480,7 @@ export default function DeveloperPage() {
             </span>
           </p>
           <p className="text-white/20 text-xs mt-2 flex items-center justify-center gap-1">
-            <FiMapPin className="text-white/20" /> Rajasthan, India
+            <FiMapPin className="text-white/20" /> Bidasar, Churu, Rajasthan
           </p>
           <Link
             to="/"

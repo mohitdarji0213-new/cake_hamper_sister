@@ -88,7 +88,7 @@ export default function Navbar() {
       >
         {/* Top bar */}
         <div className="bg-primary-500 text-white text-xs text-center py-1 px-4">
-          📞 Garima Bothra — Free delivery on orders above ₹500 | Jaipur &
+          📞 Garima Bothra — ₹500+ order par FREE delivery | Bidasar, Churu &
           nearby areas
         </div>
 

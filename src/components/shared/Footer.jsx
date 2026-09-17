@@ -158,7 +158,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-warm-200">
                 <FiMapPin className="text-gold-400 mt-0.5 flex-shrink-0" />
-                <span>Cake Hamper Sisters, Jaipur, Rajasthan</span>
+                <span>Cake Hamper Sisters, Bidasar, Churu, Rajasthan</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-warm-200">
                 <FiPhone className="text-gold-400 flex-shrink-0" />
@@ -179,8 +179,11 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <div className="mt-4 p-3 bg-white/5 rounded-xl text-xs text-warm-300">
+            <div className="mt-2 p-3 bg-white/5 rounded-xl text-xs text-warm-300">
               🕐 Open: Mon–Sun, 9am – 8pm
+            </div>
+            <div className="mt-2 p-3 bg-primary-500/10 rounded-xl text-xs text-warm-200">
+              🚚 Bidasar–Churu area mein ₹500 se upar ki delivery FREE!
             </div>
           </div>
         </div>
