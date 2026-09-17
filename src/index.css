@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body bg-warm-50 text-warm-900;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+  .btn-outline {
+    @apply border-2 border-primary-500 text-primary-600 hover:bg-primary-500 hover:text-white font-semibold px-6 py-3 rounded-full transition-all duration-300;
+  }
+  .btn-gold {
+    @apply bg-gold-500 hover:bg-gold-600 text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 shadow-md hover:shadow-lg;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300;
+  }
+  .input-field {
+    @apply w-full px-4 py-3 border border-warm-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-transparent bg-white transition-all;
+  }
+  .section-title {
+    @apply font-display text-3xl md:text-4xl font-bold text-warm-900;
+  }
+  .badge-new {
+    @apply bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full;
+  }
+  .badge-sale {
+    @apply bg-red-500 text-white text-xs font-bold px-2 py-0.5 rounded-full;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f5f0e8; }
+::-webkit-scrollbar-thumb { background: #ff7519; border-radius: 10px; }
+
+/* Shimmer loading */
+.shimmer {
+  background: linear-gradient(90deg, #f0e8d8 25%, #ebe0cc 50%, #f0e8d8 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
